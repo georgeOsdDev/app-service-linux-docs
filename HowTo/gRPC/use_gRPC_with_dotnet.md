@@ -43,10 +43,11 @@ If you are using the templated code from the ASP.NET tutorial we will need to re
     } 
   }, 
   "AllowedHosts": "*", 
+  "Kestrel": {
   //  "EndpointDefaults": { 
   //    "Protocols": "Http2" 
   //  } 
-  //} 
+  } 
 }
 
 ```
